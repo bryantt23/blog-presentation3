@@ -1,0 +1,11 @@
+%h1 All Articles
+
+- @articles.each do |article|
+  %p
+    Article title:
+    =article.title
+
+  %p
+    Article body:
+    =article.body
+  %br
